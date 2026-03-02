@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Media">
         <activity
+            android:name=".RecycleMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainMenuActivity"
             android:exported="false" />
         <activity
